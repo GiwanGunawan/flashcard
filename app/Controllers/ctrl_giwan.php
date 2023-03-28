@@ -14,33 +14,43 @@ class ctrl_giwan extends BaseController
         $this->mdl_giwan = new mdl_giwan();
     }
 
-
-
     public function index()
     {
-        if ($this->request->getVar('filterlevel')) {
-            dd($this->request->getVar('filterlevel'));
-        }
+        return view('vi_init_giwan');
+    }
 
-        $tb_giwan = $this->mdl_giwan->where(['status' => 'default', 'label' => 'Most 2000'])->first();
+    public function select_filter()
+    {
+        $data1 = $this->request->getVar('label');
+        $data2 = $this->request->getVar('status');
+
+        return redirect()->to('giwan/' . $data1 . '/' . $data2);
+    }
+
+    public function show_filter($label, $satus)
+    {
+
+        $tb_giwan = $this->mdl_giwan->where([
+
+            'label' => $label,
+            'status' => $satus
+
+        ])->first();
 
         $data = [
-            'title' => 'Daftar Komik',
-            'tb_giwan' => $tb_giwan
+            'tb_giwan' => $tb_giwan,
         ];
 
 
-        // dd($tb_giwan);
-        // dd($data);
-        return view('vi_giwan', $data);
+        return view('vi_sh_giwan', $data);
     }
 
-    public function simpan()
+    public function simpan($data1, $data2)
     {
         $this->mdl_giwan->save([
             'id' => $this->request->getVar('id'),
             'status' => $this->request->getVar('status')
         ]);
-        return redirect()->back();
+        return redirect()->to('giwan/' . $data1 . '/' . $data2);
     }
 }

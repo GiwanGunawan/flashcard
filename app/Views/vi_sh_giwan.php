@@ -5,25 +5,7 @@
     <div class="col">
         <div class="row">
 
-            <div class="container mb-3">
-                <div class="row">
-                    <div class="col">
 
-                        <form action="/giwan" method="POST">
-                            <?= csrf_field(); ?>
-                            <select name="filterlevel" class="form-control btn btn-primary" onchange="this.form.submit()">
-                                <option value="Default">Default</option>
-                                <option value="Ulangi">Ulangi</option>
-                                <option value="Cukup">Cukup</option>
-                                <option value="Lancar">Lancar</option>
-
-                            </select>
-                        </form>
-
-
-                    </div>
-                </div>
-            </div>
 
             <?php if (is_null($tb_giwan)) {
                 echo "Tidak ada data bro, pilih level yang lain ya ^_^";
@@ -41,32 +23,35 @@
                 </div>
 
                 <div class="d-grid gap-2 my-5">
-                    <form action="/giwan/simpan" method="post">
+
+                    <form action="/simpan/<?= $tb_giwan['label']; ?>/<?= $tb_giwan['status']; ?>" method="post">
                         <!-- code anti bajak, biar aman     -->
                         <?= csrf_field(); ?>
                         <input type="hidden" name="id" value="<?= $tb_giwan['id']; ?>">
-                        <input type="submit" class="btn btn-outline-primary" name="status" value="Lancar">
+                        <input type="submit" class="btn btn-outline-danger" name="status" value="Default">
                     </form>
 
-                    <form action="/giwan/simpan" method="post">
+                    <form action="/simpan/<?= $tb_giwan['label']; ?>/<?= $tb_giwan['status']; ?>" method="post">
+                        <!-- code anti bajak, biar aman     -->
+                        <?= csrf_field(); ?>
+                        <input type="hidden" name="id" value="<?= $tb_giwan['id']; ?>">
+                        <input type="submit" class="btn btn-outline-danger" name="status" value="Ulangi">
+                    </form>
+
+                    <form action="/simpan/<?= $tb_giwan['label']; ?>/<?= $tb_giwan['status']; ?>" method="post">
                         <!-- code anti bajak, biar aman     -->
                         <?= csrf_field(); ?>
                         <input type="hidden" name="id" value="<?= $tb_giwan['id']; ?>">
                         <input type="submit" class="btn btn-outline-primary" name="status" value="Cukup">
                     </form>
 
-                    <form action="/giwan/simpan" method="post">
+                    <form action="/simpan/<?= $tb_giwan['label']; ?>/<?= $tb_giwan['status']; ?>" method="post">
                         <!-- code anti bajak, biar aman     -->
                         <?= csrf_field(); ?>
                         <input type="hidden" name="id" value="<?= $tb_giwan['id']; ?>">
-                        <input type="submit" class="btn btn-outline-danger" name="status" value="Ulangi">
+                        <input type="submit" class="btn btn-outline-primary" name="status" value="Lancar">
                     </form>
-                    <form action="/giwan/simpan" method="post">
-                        <!-- code anti bajak, biar aman     -->
-                        <?= csrf_field(); ?>
-                        <input type="hidden" name="id" value="<?= $tb_giwan['id']; ?>">
-                        <input type="submit" class="btn btn-outline-danger" name="status" value="default">
-                    </form>
+
                 </div>
 
             <?php  }

@@ -29,11 +29,16 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-//$routes->get('/', 'ctrl_giwan::index');
-$routes->get('/giwan', 'ctrl_giwan::index');
-$routes->post('/giwan', 'ctrl_giwan::index');
-$routes->post('/giwan/simpan', 'ctrl_giwan::simpan');
+$routes->get('/', 'ctrl_landing_page::index');
+//$routes->get('/giwan', 'ctrl_giwan::index');
+//$routes->post('/giwan/(:segment)', 'ctrl_giwan::filter/$1');
+//$routes->get('/giwan/(:segment)', 'ctrl_giwan::filter/$1');
+//$routes->post('/giwan', 'ctrl_giwan::index');
 
+$routes->get('/giwan', 'ctrl_giwan::index');
+$routes->post('/giwan/select', 'ctrl_giwan::select_filter');
+$routes->get('/giwan/(:any)/(:any)', 'ctrl_giwan::show_filter/$1/$2');
+$routes->post('/simpan/(:any)/(:any)', 'ctrl_giwan::simpan/$1/$2');
 
 /*
  * --------------------------------------------------------------------
