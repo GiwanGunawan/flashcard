@@ -36,7 +36,7 @@ $routes->get('/', 'ctrl_landing_page::index');
 //$routes->post('/giwan', 'ctrl_giwan::index');
 
 $routes->get('/giwan', 'ctrl_giwan::index');
-$routes->post('/giwan/select', 'ctrl_giwan::select_filter');
+$routes->post('/giwan/init', 'ctrl_giwan::init_filter');
 $routes->get('/giwan/(:any)/(:any)', 'ctrl_giwan::show_filter/$1/$2');
 $routes->post('/simpan/(:any)/(:any)', 'ctrl_giwan::simpan/$1/$2');
 

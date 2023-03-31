@@ -9,7 +9,7 @@
                 <div class="row">
                     <div class="col">
 
-                        <form action="/giwan/select" method="POST" class="d-grid gap-2 my-5">
+                        <form action="/giwan/init" method="POST" class="d-grid gap-2 my-5">
                             Pilih Kategori :
                             <select name="label" class="form-control btn btn-outline-primary">
                                 <option value="Most 1000">Most 1000</option>
@@ -19,10 +19,12 @@
 
                             Pilih Status :
                             <select name="status" class="form-control btn btn-outline-primary">
-                                <option value="Default">Default</option>
-                                <option value="Ulangi">Ulangi</option>
-                                <option value="Cukup">Cukup</option>
-                                <option value="Lancar">Lancar</option>
+                                <option value="Ulangi1">Ulangi1</option>
+                                <option value="Ulangi2">Ulangi2</option>
+                                <option value="Cukup1">Cukup1</option>
+                                <option value="Cukup2">Cukup2</option>
+                                <option value="Lancar1">Lancar1</option>
+                                <option value="Lancar2">Lancar2</option>
                             </select>
                             <br>
                             Mulai Yuk!

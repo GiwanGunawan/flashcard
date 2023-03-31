@@ -19,7 +19,7 @@ class ctrl_giwan extends BaseController
         return view('vi_init_giwan');
     }
 
-    public function select_filter()
+    public function init_filter()
     {
         $data1 = $this->request->getVar('label');
         $data2 = $this->request->getVar('status');
