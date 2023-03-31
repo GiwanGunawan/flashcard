@@ -31,28 +31,42 @@
                         <!-- code anti bajak, biar aman     -->
                         <?= csrf_field(); ?>
                         <input type="hidden" name="id" value="<?= $tb_giwan['id']; ?>">
-                        <input type="submit" class="btn btn-outline-danger" name="status" value="Default">
+                        <input type="submit" class="btn btn-outline-danger" name="status" value="Ulangi1">
                     </form>
 
                     <form action="/simpan/<?= $tb_giwan['label']; ?>/<?= $tb_giwan['status']; ?>" method="post" class="d-grid">
                         <!-- code anti bajak, biar aman     -->
                         <?= csrf_field(); ?>
                         <input type="hidden" name="id" value="<?= $tb_giwan['id']; ?>">
-                        <input type="submit" class="btn btn-outline-danger" name="status" value="Ulangi">
+                        <input type="submit" class="btn btn-outline-danger" name="status" value="Ulangi2">
                     </form>
 
                     <form action="/simpan/<?= $tb_giwan['label']; ?>/<?= $tb_giwan['status']; ?>" method="post" class="d-grid">
                         <!-- code anti bajak, biar aman     -->
                         <?= csrf_field(); ?>
                         <input type="hidden" name="id" value="<?= $tb_giwan['id']; ?>">
-                        <input type="submit" class="btn btn-outline-primary" name="status" value="Cukup">
+                        <input type="submit" class="btn btn-outline-warning" name="status" value="Cukup1">
                     </form>
 
                     <form action="/simpan/<?= $tb_giwan['label']; ?>/<?= $tb_giwan['status']; ?>" method="post" class="d-grid">
                         <!-- code anti bajak, biar aman     -->
                         <?= csrf_field(); ?>
                         <input type="hidden" name="id" value="<?= $tb_giwan['id']; ?>">
-                        <input type="submit" class="btn btn-outline-primary" name="status" value="Lancar">
+                        <input type="submit" class="btn btn-outline-warning" name="status" value="Cukup2">
+                    </form>
+
+                    <form action="/simpan/<?= $tb_giwan['label']; ?>/<?= $tb_giwan['status']; ?>" method="post" class="d-grid">
+                        <!-- code anti bajak, biar aman     -->
+                        <?= csrf_field(); ?>
+                        <input type="hidden" name="id" value="<?= $tb_giwan['id']; ?>">
+                        <input type="submit" class="btn btn-outline-info" name="status" value="Lancar1">
+                    </form>
+
+                    <form action="/simpan/<?= $tb_giwan['label']; ?>/<?= $tb_giwan['status']; ?>" method="post" class="d-grid">
+                        <!-- code anti bajak, biar aman     -->
+                        <?= csrf_field(); ?>
+                        <input type="hidden" name="id" value="<?= $tb_giwan['id']; ?>">
+                        <input type="submit" class="btn btn-outline-info" name="status" value="Lancar2">
                     </form>
 
                 </div>
