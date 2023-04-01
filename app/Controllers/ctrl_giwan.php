@@ -16,7 +16,21 @@ class ctrl_giwan extends BaseController
 
     public function index()
     {
-        return view('vi_init_giwan');
+
+        // $kategori_tb_giwan = $this->mdl_giwan->select('label')->distinct();
+        $kategori_tb_giwan = $this->mdl_giwan->select('label')->distinct()->findAll();
+        // $kategori_tb_giwan = $this->mdl_giwan->findAll();
+        // dd($kategori_tb_giwan = $this->mdl_giwan->select('label')->distinct()->findAll());
+        // dd($kategori_tb_giwan = $this->mdl_giwan->findAll());
+
+        // dd($kategori_tb_giwan);
+
+        $data = [
+
+            'kategori_tb_giwan' => $kategori_tb_giwan
+        ];
+
+        return view('vi_init_giwan', $data);
     }
 
     public function init_filter()
