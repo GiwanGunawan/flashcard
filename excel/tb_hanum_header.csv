@@ -1,0 +1,404 @@
+﻿id,label,b_inggris,b_indo,status
+1,Human-Head,Face, Wajah,Ulangi1
+2,Human-Head,Hair, Rambut,Ulangi1
+3,Human-Head,Forehead, Dahi,Ulangi1
+4,Human-Head,Eyes (Plural), Mata,Ulangi1
+5,Human-Head,Eyeball, Bola mata,Ulangi1
+6,Human-Head,Eyebrows (Plural), Alis,Ulangi1
+7,Human-Head,Eyelash, Bulu mata,Ulangi1
+8,Human-Head,Eyelid, Kelopak mata,Ulangi1
+9,Human-Head,Temple, Pelipis,Ulangi1
+10,Human-Head,Ears (Plural), Telinga ,Ulangi1
+11,Human-Head,Earlobe, Daun telinga,Ulangi1
+12,Human-Head,Nose, Hidung,Ulangi1
+13,Human-Head,Nostril, Lubang hidung,Ulangi1
+14,Human-Head,Mouth, Mulut,Ulangi1
+15,Human-Head,Lips, Bibir,Ulangi1
+16,Human-Head,Teeth (Plural), Gigi,Ulangi1
+17,Human-Head,Tongue, Lidah,Ulangi1
+18,Human-Head,Cheeks (Plural), Pipi,Ulangi1
+19,Human-Head,Chin, Dagu,Ulangi1
+20,Human-Head,Jaw, Rahang,Ulangi1
+21,Human-Head,Mustache, Kumis,Ulangi1
+22,Human-Head,Beard, Jenggot,Ulangi1
+23,Human-Head,Adam’s apple, Jakun,Ulangi1
+24,Human-Head,Neck, Leher,Ulangi1
+25,Human-Body,Shoulder, Pundak,Ulangi1
+26,Human-Body,Chest, Dada,Ulangi1
+27,Human-Body,Breast, Payudara,Ulangi1
+28,Human-Body,Stomach/Belly/Tummy/Abdomen, Perut,Ulangi1
+29,Human-Body,Belly button, Pusar,Ulangi1
+30,Human-Body,Back, Punggung,Ulangi1
+31,Human-Body,Arm, Lengan,Ulangi1
+32,Human-Body,Upper Arm, Lengan atas,Ulangi1
+33,Human-Body,Forearm, Lengan bawah,Ulangi1
+34,Human-Body,Armpit, Ketiak,Ulangi1
+35,Human-Body,Elbow, Siku,Ulangi1
+36,Human-Body,Hands, Tangan,Ulangi1
+37,Human-Body,Waist, Pinggang,Ulangi1
+38,Human-Body,Hip, Panggul,Ulangi1
+39,Human-Body,Buttocks, Pantat,Ulangi1
+40,Human-Body,Groin, Kunci paha,Ulangi1
+41,Human-Body,Thigh, Paha,Ulangi1
+42,Human-Body,Leg, Kaki,Ulangi1
+43,Human-Body,Knee, Lutut,Ulangi1
+44,Human-Body,Calf, Betis,Ulangi1
+45,Human-Foot,Toe, Jari kaki/ujung kaki,Ulangi1
+46,Human-Foot,Heel, Tumit,Ulangi1
+47,Human-Foot,Foot, Kaki,Ulangi1
+48,Human-Foot,Sole, Telapak kaki,Ulangi1
+49,Human-Foot,Instep, Punggung kaki,Ulangi1
+50,Human-Foot,Toenail, Kukur jari kaki,Ulangi1
+51,Human-Foot,Ankle, Pergelangan kaki,Ulangi1
+52,Human-Hand,Finger, Jari,Ulangi1
+53,Human-Hand,Fingers, Jari-jari,Ulangi1
+54,Human-Hand,Thumb, Ibu jari,Ulangi1
+55,Human-Hand,Index finger, Jari telunjuk,Ulangi1
+56,Human-Hand,Middle finger, Jari tengah,Ulangi1
+57,Human-Hand,Ring finger, Jari manis,Ulangi1
+58,Human-Hand,Little finger, Jari kelingking,Ulangi1
+59,Human-Hand,Palm hand, Telapak tangan,Ulangi1
+60,Human-Hand,Wrist, Pergelangan tangan,Ulangi1
+61,Human-Hand,Finger/nail, Kuku tangan,Ulangi1
+62,Human-Hand,Phalanges, Ruas jari,Ulangi1
+63,Human-Hand,Knuckle, Buku jari,Ulangi1
+64,Human-Hand,Back of hand, Punggung tangan,Ulangi1
+65,Human-Other,Mole, Tahi lalat,Ulangi1
+66,Human-Other,Birth mark, Tanda lahir,Ulangi1
+67,Human-Other,Skin, Kulit,Ulangi1
+68,Number,One,satu,Ulangi1
+69,Number,two,dua,Ulangi1
+70,Number,three,tiga,Ulangi1
+71,Number,four,empat,Ulangi1
+72,Number,five,lima,Ulangi1
+73,Number,six,enam,Ulangi1
+74,Number,seven,tujuh,Ulangi1
+75,Number,eight,delapan,Ulangi1
+76,Number,nine,sembilan,Ulangi1
+77,Number,ten,sepuluh,Ulangi1
+78,Number,eleven,sebelas,Ulangi1
+79,Number,twelve,dua belas,Ulangi1
+80,Number,thirteen,tiga belas,Ulangi1
+81,Number,fourteen,empat belas,Ulangi1
+82,Number,fifteen,lima belas,Ulangi1
+83,Number,sixteen,enam belas,Ulangi1
+84,Number,seventeen,tujuh belas,Ulangi1
+85,Number,eighteen,delapan belas,Ulangi1
+86,Number,nineteen,sembilan belas,Ulangi1
+87,Number,twenty,dua puluh,Ulangi1
+88,Number,thirty,tiga puluh,Ulangi1
+89,Number,forty,empat puluh,Ulangi1
+90,Number,fifty,lima puluh,Ulangi1
+91,Number,sixty,enam puluh,Ulangi1
+92,Number,seventy,tujuh puluh,Ulangi1
+93,Number,eighty,delapan puluh,Ulangi1
+94,Number,ninety,sembilan puluh,Ulangi1
+95,Number,hundred,ratus,Ulangi1
+96,Number,thousand,ribu,Ulangi1
+97,Number,million,juta,Ulangi1
+98,Number,billion,milyar,Ulangi1
+99,Number,trillion,triliun,Ulangi1
+100,Animal, Alpaca, alpaka atau kambing peru,Ulangi1
+101,Animal, Alligator, buaya,Ulangi1
+102,Animal, Ant, semut,Ulangi1
+103,Animal, Antelope, kijang,Ulangi1
+104,Animal, Ape, kera atau beruk,Ulangi1
+105,Animal, Baboon, babon,Ulangi1
+106,Animal, Bat, kelelawar,Ulangi1
+107,Animal, Bear, beruang,Ulangi1
+108,Animal, Bee, lebah,Ulangi1
+109,Animal, Bird, burung,Ulangi1
+110,Animal, Buffalo, banteng,Ulangi1
+111,Animal, Butterfly, kupu-kupu,Ulangi1
+112,Animal, Camel, unta,Ulangi1
+113,Animal, Cat, kucing,Ulangi1
+114,Animal, Caterpillar, ulat bulu,Ulangi1
+115,Animal, Catfish, ikan lele,Ulangi1
+116,Animal, Centipede, lipan,Ulangi1
+117,Animal, Chicken, ayam,Ulangi1
+118,Animal, Cockroach, kecoak,Ulangi1
+119,Animal, Cow, sapi,Ulangi1
+120,Animal, Crab, kepiting,Ulangi1
+121,Animal, Crocodile, buaya,Ulangi1
+122,Animal, Crow, burung gagak,Ulangi1
+123,Animal, Cricket, jangkrik,Ulangi1
+124,Animal, Deer, rusa,Ulangi1
+125,Animal, Dog, anjing,Ulangi1
+126,Animal, Dolphin, lumba-lumba,Ulangi1
+127,Animal, Donkey, keledai,Ulangi1
+128,Animal, Dragonfly, capung,Ulangi1
+129,Animal, Duck, bebek,Ulangi1
+130,Animal, Eagle, burung elang,Ulangi1
+131,Animal, Eel, belut,Ulangi1
+132,Animal, Elephant, gajah,Ulangi1
+133,Animal, Fox, serigala,Ulangi1
+134,Animal, Firefly, kunang-kunang,Ulangi1
+135,Animal, Fish, ikan,Ulangi1
+136,Animal, Flamingo, burung flamingo,Ulangi1
+137,Animal, Fly, lalat,Ulangi1
+138,Animal, Frog, katak,Ulangi1
+139,Animal, Ferret, musang,Ulangi1
+140,Animal, Gecko, tokek,Ulangi1
+141,Animal, Giraffe, jerapah,Ulangi1
+142,Animal, Goat, kambing,Ulangi1
+143,Animal, Goldfish, ikan emas,Ulangi1
+144,Animal, Goose, angsa,Ulangi1
+145,Animal, Guinea Pig, marmot,Ulangi1
+146,Animal, Hedgehog, landak,Ulangi1
+147,Animal, Horse, kuda,Ulangi1
+148,Animal, Hippopotamus, kudanil,Ulangi1
+149,Animal, Insect, serangga,Ulangi1
+150,Animal, Iguana, iguana,Ulangi1
+151,Animal, Jellyfish, ubur-ubur,Ulangi1
+152,Animal, Kangaroo, kangguru,Ulangi1
+153,Animal, Komodo Dragon, komodo,Ulangi1
+154,Animal, Ladybug, kumbang,Ulangi1
+155,Animal, Lemur, pukang,Ulangi1
+156,Animal, Leopard, macan tutul,Ulangi1
+157,Animal, Lion, singa,Ulangi1
+158,Animal, Lizard, cicak,Ulangi1
+159,Animal, Monkey, monyet,Ulangi1
+160,Animal, Mosquito, nyamuk,Ulangi1
+161,Animal, Mouse, tikus,Ulangi1
+162,Animal, Octopus, gurita,Ulangi1
+163,Animal, Ostrich, burung unta,Ulangi1
+164,Animal, Otter, berang-berang,Ulangi1
+165,Animal, Owl, burung hantu,Ulangi1
+166,Animal, Ox, kerbau,Ulangi1
+167,Animal, Oyster, tiram,Ulangi1
+168,Animal, Panda, beruang panda,Ulangi1
+169,Animal, Panther, harimau kumbang,Ulangi1
+170,Animal, Parrot, burung beo,Ulangi1
+171,Animal, Peacock, burung merak,Ulangi1
+172,Animal, Pig, babi,Ulangi1
+173,Animal, Pigeon, burung merpati,Ulangi1
+174,Animal, Prawn, udang,Ulangi1
+175,Animal, Quail, burung puyuh,Ulangi1
+176,Animal, Rabbit, kelinci,Ulangi1
+177,Animal, Raccoon, rakun,Ulangi1
+178,Animal, Rat, tikus,Ulangi1
+179,Animal, Rhinoceros, badak,Ulangi1
+180,Animal, Scorpion, kalajengking,Ulangi1
+181,Animal, Seahorse, kuda laut,Ulangi1
+182,Animal, Sea urchin, bulu babi,Ulangi1
+183,Animal, Shark, ikan hiu,Ulangi1
+184,Animal, Sheep, domba,Ulangi1
+185,Animal, Shrimp, udang,Ulangi1
+186,Animal, Snail, siput,Ulangi1
+187,Animal, Snake, ular,Ulangi1
+188,Animal, Spider, laba-laba,Ulangi1
+189,Animal, Squid, cumi-cumi,Ulangi1
+190,Animal, Starfish, bintang laut,Ulangi1
+191,Animal, Swan, angsa,Ulangi1
+192,Animal, Tiger, macan,Ulangi1
+193,Animal, Tortoise, kura-kura,Ulangi1
+194,Animal, Turtle, kura-kura,Ulangi1
+195,Animal, Wasp, tawon,Ulangi1
+196,Animal, Wolf, serigala,Ulangi1
+197,Animal, Whale, ikan paus,Ulangi1
+198,Animal, Worm, cacing,Ulangi1
+199,Animal, Zebra, zebra,Ulangi1
+200,Time, Now, Sekarang,Ulangi1
+201,Time, Today, Hari ini,Ulangi1
+202,Time, Later, Nanti,Ulangi1
+203,Time, Last night, Tadi malam,Ulangi1
+204,Time, Yesterday, Kemarin,Ulangi1
+205,Time, Tonight, Malam ini,Ulangi1
+206,Time, This week, Minggu ini,Ulangi1
+207,Time, Midday, Tengah hari,Ulangi1
+208,Time, Just now, Baru saja,Ulangi1
+209,Time, Two hours, Dua jam,Ulangi1
+210,Time, Forever , Selamanya,Ulangi1
+211,Depan Sambung Ganti, Of, Dari,Ulangi1
+212,Depan Sambung Ganti, And, Dan,Ulangi1
+213,Depan Sambung Ganti, A, Sebuah,Ulangi1
+214,Depan Sambung Ganti, To, Untuk,Ulangi1
+215,Depan Sambung Ganti, In, Di dalam,Ulangi1
+216,Depan Sambung Ganti, Is, Adalah,Ulangi1
+217,Depan Sambung Ganti, You, Kamu,Ulangi1
+218,Depan Sambung Ganti, That, Itu,Ulangi1
+219,Depan Sambung Ganti, He, Dia (masculine),Ulangi1
+220,Depan Sambung Ganti, Her, Dia (feminine),Ulangi1
+221,Depan Sambung Ganti, For, Untuk,Ulangi1
+222,Depan Sambung Ganti, On, Di atas,Ulangi1
+223,Depan Sambung Ganti, As, Sebagai,Ulangi1
+224,Depan Sambung Ganti, With, Dengan,Ulangi1
+225,Depan Sambung Ganti, His, Milik dia (masculine),Ulangi1
+226,Depan Sambung Ganti, Hers, Milik dia (feminine),Ulangi1
+227,Depan Sambung Ganti, They, Mereka,Ulangi1
+228,Depan Sambung Ganti, I, Saya,Ulangi1
+229,Depan Sambung Ganti, Yourself, Dirimu sendiri,Ulangi1
+230,Depan Sambung Ganti, Themselves, Diri mereka sendiri,Ulangi1
+231,Depan Sambung Ganti, Himself, Dirinya sendiri (masculine),Ulangi1
+232,Depan Sambung Ganti, Herself, Dirinya sendiri (feminine),Ulangi1
+233,Depan Sambung Ganti, Ourselves, Diri kita,Ulangi1
+234,Depan Sambung Ganti, Itself, Dirinya,Ulangi1
+235,Depan Sambung Ganti, Somebody/Anybody, Seorangpun/seseorang,Ulangi1
+236,Depan Sambung Ganti, No one, Tak seorangpun,Ulangi1
+237,Food, Cake, Kue,Ulangi1
+238,Food, Cooking, Memasak,Ulangi1
+239,Food, Salt, Garam,Ulangi1
+240,Food, Sugar, Gula,Ulangi1
+241,Food, Egg, Telur,Ulangi1
+242,Food, Flour, Tepung,Ulangi1
+243,Food, Spice, Bumbu,Ulangi1
+244,Food, Vegetable, Sayur-sayuran,Ulangi1
+245,Food, Fish, Ikan,Ulangi1
+246,Food, Bread, Roti,Ulangi1
+247,Kata Kerja, Accept, Menerima,Ulangi1
+248,Kata Kerja, Accuse, Menuduh,Ulangi1
+249,Kata Kerja, Achieve, Mencapai,Ulangi1
+250,Kata Kerja, Add, Menambahkan,Ulangi1
+251,Kata Kerja, Adjust, Menyesuaikan,Ulangi1
+252,Kata Kerja, Admire, Mengagumi,Ulangi1
+253,Kata Kerja, Admit, Mengakui,Ulangi1
+254,Kata Kerja, Agree, Menyetujui,Ulangi1
+255,Kata Kerja, Allow, Mengizinkan,Ulangi1
+256,Kata Kerja, Announce, Mengumumkan,Ulangi1
+257,Kata Kerja, Apologize, Meminta maaf,Ulangi1
+258,Kata Kerja, Appear, Muncul,Ulangi1
+259,Kata Kerja, Apply, Menerapkan,Ulangi1
+260,Kata Kerja, Appreciate, Menghargai,Ulangi1
+261,Kata Kerja, Become, Menjadi,Ulangi1
+262,Kata Kerja, Begin, Mulai,Ulangi1
+263,Kata Kerja, Behave, Bertingkah,Ulangi1
+264,Kata Kerja, Believe, Percaya,Ulangi1
+265,Kata Kerja, Belong, Termasuk,Ulangi1
+266,Kata Kerja, Borrow, Meminjam,Ulangi1
+267,Kata Kerja, Bring, Membawa,Ulangi1
+268,Kata Kerja, Build, Membangun,Ulangi1
+269,Kata Kerja, Celebrate, Merayakan,Ulangi1
+270,Kata Kerja, Choose, Memilih,Ulangi1
+271,Kata Kerja, Come, Datang,Ulangi1
+272,Kata Kerja, Compare, Membandingkan,Ulangi1
+273,Kata Kerja, Complain, Mengeluh,Ulangi1
+274,Kata Kerja, Confirm, Memastikan,Ulangi1
+275,Kata Kerja, Create, Membuat,Ulangi1
+276,Kata Kerja, Decide, Memutuskan,Ulangi1
+277,Kata Sifat, Big, Besar,Ulangi1
+278,Kata Sifat, Little, Kecil,Ulangi1
+279,Kata Sifat, Beautiful, Cantik,Ulangi1
+280,Kata Sifat, Ugly, Jelek,Ulangi1
+281,Kata Sifat, Smart, Pintar,Ulangi1
+282,Kata Sifat, Stupid, Bodoh,Ulangi1
+283,Kata Sifat, Soft, Lembut,Ulangi1
+284,Kata Sifat, Short, Pendek,Ulangi1
+285,Kata Sifat, Tall, Tinggi,Ulangi1
+286,Kata Sifat, Slim, Langsing,Ulangi1
+287,Kata Sifat, Fat, Gendut,Ulangi1
+288,Kata Sifat, Long, Panjang,Ulangi1
+289,Kata Sifat, Hot, Panas,Ulangi1
+290,Kata Sifat, Cool, Dingin,Ulangi1
+291,Kata Sifat, Fresh, Segar,Ulangi1
+292,Kata Sifat, Kind, Baik hati,Ulangi1
+293,Kata Sifat, Young, Muda,Ulangi1
+294,Kata Sifat, Old, Tua,Ulangi1
+295,Kata Sifat, Pretty, Cantik,Ulangi1
+296,Kata Sifat, Lazy, Malas,Ulangi1
+297,Kata Sifat, Angry, marah,Ulangi1
+298,Kata Sifat, Basic, Dasar,Ulangi1
+299,Kata Sifat, Boring, Membosankan,Ulangi1
+300,Kata Sifat, Confident, Percaya diri,Ulangi1
+301,Kata Sifat, Critical, Kritis,Ulangi1
+302,Kata Sifat, Happy, Senang,Ulangi1
+303,Kata Sifat, Healthy, Sehat,Ulangi1
+304,Kata Sifat, Huge, Besar sekali,Ulangi1
+305,Kata Sifat, Helpful, Bermanfaat,Ulangi1
+306,Kata Sifat, Important, Penting,Ulangi1
+307,Kata Sifat, Impossible, Mustahil,Ulangi1
+308,Mata Angin, East, Timur,Ulangi1
+309,Mata Angin, West, Barat,Ulangi1
+310,Mata Angin, North, Utara,Ulangi1
+311,Mata Angin, South, Selatan,Ulangi1
+312,Mata Angin, Southeast, Tenggara,Ulangi1
+313,Mata Angin, Southwest, Barat daya,Ulangi1
+314,Mata Angin, Northeast, Timur laut,Ulangi1
+315,Mata Angin, Northwest, Barat laut,Ulangi1
+316,Kata Benda, People, Orang-orang,Ulangi1
+317,Kata Benda, Art, Seni,Ulangi1
+318,Kata Benda, World, Dunia,Ulangi1
+319,Kata Benda, Information, Informasi,Ulangi1
+320,Kata Benda, Map, Peta,Ulangi1
+321,Kata Benda, Family, Keluarga,Ulangi1
+322,Kata Benda, Government, Pemerintah,Ulangi1
+323,Kata Benda, Health, Kesehatan,Ulangi1
+324,Kata Benda, System, Sistem,Ulangi1
+325,Kata Benda, Computer, Komputer,Ulangi1
+326,Kata Benda, Meat, Daging,Ulangi1
+327,Kata Benda, Music, Musik,Ulangi1
+328,Kata Benda, Person, Orang,Ulangi1
+329,Kata Benda, Food, Makanan,Ulangi1
+330,Kata Benda, Understanding, Pengertian,Ulangi1
+331,Kata Benda, Theory, Teori,Ulangi1
+332,Kata Benda, Law, Hukum,Ulangi1
+333,Kata Benda, Bird, Burung,Ulangi1
+334,Kata Benda, Literature, Literatur,Ulangi1
+335,Kata Benda, Problem, Masalah,Ulangi1
+336,Kata Benda, Knowledge, Pengetahuan,Ulangi1
+337,Kata Benda, Power, Kekuasaan,Ulangi1
+338,Kata Benda, Ability, Kemampuan,Ulangi1
+339,Kata Benda, Economics, Ekonomi,Ulangi1
+340,Kata Benda, Television, Televisi,Ulangi1
+341,Kata Benda, Science, Ilmu,Ulangi1
+342,Kata Benda, Nature, Alam,Ulangi1
+343,Kata Benda, Society, Masyarakat,Ulangi1
+344,Kata Benda, Story, Cerita,Ulangi1
+345,Kata Benda, Industry, Industri,Ulangi1
+346,Kata Benda, Media, Media,Ulangi1
+347,Kata Benda, Thing, Benda,Ulangi1
+348,Kata Benda, Player, Pemain,Ulangi1
+349,Kata Benda, Video, Video,Ulangi1
+350,Kata Benda, Security, Keamanan,Ulangi1
+351,Kata Benda, Exam, Ujian,Ulangi1
+352,Kata Benda, Movie, Film,Ulangi1
+353,Kata Benda, Organization, Organisasi,Ulangi1
+354,Kata Benda, Equipment, Peralatan,Ulangi1
+355,Kata Benda, Technology, Teknologi,Ulangi1
+356,Kata Benda, Army, Tentara,Ulangi1
+357,Kata Benda, Camera, Kamera,Ulangi1
+358,Kata Benda, Paper, Kertas,Ulangi1
+359,Kata Benda, Child, Anak,Ulangi1
+360,Kata Benda, Article, Artikel,Ulangi1
+361,Kata Benda, News, Berita,Ulangi1
+362,Kata Benda, Month, Bulan dalam kalender,Ulangi1
+363,Kata Benda, Truth, Kebenaran,Ulangi1
+364,Kata Benda, Marketing, Pemasaran,Ulangi1
+365,Kata Benda, University, Universitas,Ulangi1
+366,Kata Benda, Writing, Penulisan,Ulangi1
+367,Kata Benda, Article, Artikel,Ulangi1
+368,Kata Benda, Department, Departemen,Ulangi1
+369,Kata Benda, Difference, Perbedaan,Ulangi1
+370,Kata Benda, Goal, Tujuan,Ulangi1
+371,Kata Benda, News, Berita,Ulangi1
+372,Kata Benda, Audience, Hadirin,Ulangi1
+373,Kata Benda, Fishing, Memancing ikan,Ulangi1
+374,Pertanyaan, What, Apa,Ulangi1
+375,Pertanyaan, Where, Di mana,Ulangi1
+376,Pertanyaan, Why, Kenapa,Ulangi1
+377,Pertanyaan, Who, Siapa,Ulangi1
+378,Pertanyaan, When, Kapan,Ulangi1
+379,Pertanyaan, How, Bagaimana,Ulangi1
+380,Keterangan, Actually, Sebenarnya,Ulangi1
+381,Keterangan, Again, Lagi,Ulangi1
+382,Keterangan, Ahead, Di depan,Ulangi1
+383,Keterangan, Almost, Hampir,Ulangi1
+384,Keterangan, Already, Sudah,Ulangi1
+385,Keterangan, Also, Juga,Ulangi1
+386,Keterangan, Altogether, Bersama,Ulangi1
+387,Keterangan, Always, Selalu,Ulangi1
+388,Keterangan, Anyway, Bagaimanapun,Ulangi1
+389,Keterangan, Automatically, Secara otomatis,Ulangi1
+390,Keterangan, Basically, Pada dasarnya,Ulangi1
+391,Keterangan, Below, Di bawah,Ulangi1
+392,Keterangan, Briefly, Secara singkat,Ulangi1
+393,Keterangan, Carefully, Dengan hati-hati,Ulangi1
+394,Keterangan, Certainly, Dengan pasti,Ulangi1
+395,Keterangan, Clearly, Dengan jelas,Ulangi1
+396,Keterangan, Closely, Dengan rapat,Ulangi1
+397,Keterangan, Completely, Sama sekali,Ulangi1
+398,Keterangan, Constantly, Selalu,Ulangi1
+399,Keterangan, Currently, Saat ini,Ulangi1
+400,Keterangan, Daily, Harian,Ulangi1
+401,Keterangan, Deeply, Secara dalam,Ulangi1
+402,Keterangan, Definitely, Pasti,Ulangi1
+403,Keterangan, Deliberately, Dengan sengaja,Ulangi1

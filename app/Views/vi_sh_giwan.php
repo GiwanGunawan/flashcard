@@ -12,6 +12,8 @@
             } else {
             ?>
 
+                <div>kata yang tersedia: <?= $count_tb_giwan; ?></div>
+
                 <div class="d-grid gap-2 my-5">
                     <button class="btn btn-success fs-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                         <?= $tb_giwan['b_inggris']; ?>
@@ -25,7 +27,7 @@
 
                 </div>
 
-                <div class="d-grid gap-2 my-5">
+                <div class="d-grid gap-2">
 
                     <form action="/simpan/<?= $tb_giwan['label']; ?>/<?= $tb_giwan['status']; ?>" method="post" class="d-grid">
                         <!-- code anti bajak, biar aman     -->

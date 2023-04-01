@@ -27,18 +27,29 @@ class ctrl_giwan extends BaseController
         return redirect()->to('giwan/' . $data1 . '/' . $data2);
     }
 
-    public function show_filter($label, $satus)
+    public function show_filter($label, $status)
     {
 
         $tb_giwan = $this->mdl_giwan->where([
 
             'label' => $label,
-            'status' => $satus
+            'status' => $status
 
         ])->first();
 
+        $count_tb_giwan = $this->mdl_giwan
+            // ->select('label')
+            ->where([
+
+                'label' => $label,
+                'status' => $status
+            ])
+            ->countAll();
+        //dd($count_tb_giwan);
+
         $data = [
             'tb_giwan' => $tb_giwan,
+            'count_tb_giwan' => $count_tb_giwan
         ];
 
 
