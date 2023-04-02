@@ -44,6 +44,11 @@ $routes->post('/hanum/init', 'ctrl_hanum::init_filter');
 $routes->get('/hanum/(:any)/(:any)', 'ctrl_hanum::show_filter/$1/$2');
 $routes->post('/simpan/hanum/(:any)/(:any)', 'ctrl_hanum::simpan/$1/$2');
 
+$routes->get('/jihan', 'ctrl_jihan::index');
+$routes->post('/jihan/init', 'ctrl_jihan::init_filter');
+$routes->get('/jihan/(:any)/(:any)', 'ctrl_jihan::show_filter/$1/$2');
+$routes->post('/simpan/jihan/(:any)/(:any)', 'ctrl_jihan::simpan/$1/$2');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
