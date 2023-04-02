@@ -29,14 +29,15 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+$routes->get('/test', 'ctrl_test::index');
 $routes->get('/', 'ctrl_landing_page::index');
+
 
 $routes->get('/giwan', 'ctrl_giwan::index');
 $routes->post('/giwan/init', 'ctrl_giwan::init_filter');
 $routes->get('/giwan/(:any)/(:any)', 'ctrl_giwan::show_filter/$1/$2');
 $routes->post('/simpan/giwan/(:any)/(:any)', 'ctrl_giwan::simpan/$1/$2');
 
-$routes->get('/test', 'ctrl_test::index');
 
 $routes->get('/hanum', 'ctrl_hanum::index');
 $routes->post('/hanum/init', 'ctrl_hanum::init_filter');
