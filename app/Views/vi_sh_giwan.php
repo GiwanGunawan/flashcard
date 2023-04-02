@@ -12,9 +12,9 @@
             } else {
             ?>
 
-                <div>kata yang tersedia: <?= $count_tb_giwan; ?></div>
+                <div class="mt-2">kata yang tersedia: <?= $count_tb_giwan; ?></div>
 
-                <div class="d-grid gap-2 my-5">
+                <div class="d-grid gap-2 mb-5 mt-1">
                     <button class="btn btn-success fs-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                         <?= $tb_giwan['b_inggris']; ?>
                     </button>
