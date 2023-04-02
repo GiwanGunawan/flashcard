@@ -9,11 +9,11 @@
                 <div class="row">
                     <div class="col">
 
-                        <form action="/giwan/init" method="POST" class="d-grid gap-2 my-5">
+                        <form action="/hanum/init" method="POST" class="d-grid gap-2 my-5">
 
                             Pilih Kategori :
                             <select name="label" class="form-control btn btn-outline-primary">
-                                <?php foreach ($kategori_tb_giwan as $ktb) : ?>
+                                <?php foreach ($kategori_tb_hanum as $ktb) : ?>
 
                                     <option value="<?= $ktb['label']; ?>"> <?= $ktb['label']; ?> </option>
                                 <?php endforeach; ?>
