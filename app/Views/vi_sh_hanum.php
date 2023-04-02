@@ -29,42 +29,42 @@
 
                 <div class="d-grid gap-2">
 
-                    <form action="/simpan/<?= $tb_hanum['label']; ?>/<?= $tb_hanum['status']; ?>" method="post" class="d-grid">
+                    <form action="/simpan/hanum/<?= $tb_hanum['label']; ?>/<?= $tb_hanum['status']; ?>" method="post" class="d-grid">
                         <!-- code anti bajak, biar aman     -->
                         <?= csrf_field(); ?>
                         <input type="hidden" name="id" value="<?= $tb_hanum['id']; ?>">
                         <input type="submit" class="btn btn-outline-danger" name="status" value="Ulangi1">
                     </form>
 
-                    <form action="/simpan/<?= $tb_hanum['label']; ?>/<?= $tb_hanum['status']; ?>" method="post" class="d-grid">
+                    <form action="/simpan/hanum/<?= $tb_hanum['label']; ?>/<?= $tb_hanum['status']; ?>" method="post" class="d-grid">
                         <!-- code anti bajak, biar aman     -->
                         <?= csrf_field(); ?>
                         <input type="hidden" name="id" value="<?= $tb_hanum['id']; ?>">
                         <input type="submit" class="btn btn-outline-danger" name="status" value="Ulangi2">
                     </form>
 
-                    <form action="/simpan/<?= $tb_hanum['label']; ?>/<?= $tb_hanum['status']; ?>" method="post" class="d-grid">
+                    <form action="/simpan/hanum/<?= $tb_hanum['label']; ?>/<?= $tb_hanum['status']; ?>" method="post" class="d-grid">
                         <!-- code anti bajak, biar aman     -->
                         <?= csrf_field(); ?>
                         <input type="hidden" name="id" value="<?= $tb_hanum['id']; ?>">
                         <input type="submit" class="btn btn-outline-warning" name="status" value="Cukup1">
                     </form>
 
-                    <form action="/simpan/<?= $tb_hanum['label']; ?>/<?= $tb_hanum['status']; ?>" method="post" class="d-grid">
+                    <form action="/simpan/hanum/<?= $tb_hanum['label']; ?>/<?= $tb_hanum['status']; ?>" method="post" class="d-grid">
                         <!-- code anti bajak, biar aman     -->
                         <?= csrf_field(); ?>
                         <input type="hidden" name="id" value="<?= $tb_hanum['id']; ?>">
                         <input type="submit" class="btn btn-outline-warning" name="status" value="Cukup2">
                     </form>
 
-                    <form action="/simpan/<?= $tb_hanum['label']; ?>/<?= $tb_hanum['status']; ?>" method="post" class="d-grid">
+                    <form action="/simpan/hanum/<?= $tb_hanum['label']; ?>/<?= $tb_hanum['status']; ?>" method="post" class="d-grid">
                         <!-- code anti bajak, biar aman     -->
                         <?= csrf_field(); ?>
                         <input type="hidden" name="id" value="<?= $tb_hanum['id']; ?>">
                         <input type="submit" class="btn btn-outline-info" name="status" value="Lancar1">
                     </form>
 
-                    <form action="/simpan/<?= $tb_hanum['label']; ?>/<?= $tb_hanum['status']; ?>" method="post" class="d-grid">
+                    <form action="/simpan/hanum/<?= $tb_hanum['label']; ?>/<?= $tb_hanum['status']; ?>" method="post" class="d-grid">
                         <!-- code anti bajak, biar aman     -->
                         <?= csrf_field(); ?>
                         <input type="hidden" name="id" value="<?= $tb_hanum['id']; ?>">

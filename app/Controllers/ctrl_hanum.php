@@ -17,16 +17,9 @@ class ctrl_hanum extends BaseController
     public function index()
     {
 
-        // $kategori_tb_hanum = $this->mdl_hanum->select('label')->distinct();
         $kategori_tb_hanum = $this->mdl_hanum->select('label')->distinct()->findAll();
-        // $kategori_tb_hanum = $this->mdl_hanum->findAll();
-        // dd($kategori_tb_hanum = $this->mdl_hanum->select('label')->distinct()->findAll());
-        // dd($kategori_tb_hanum = $this->mdl_hanum->findAll());
-
-        // dd($kategori_tb_hanum);
 
         $data = [
-
             'kategori_tb_hanum' => $kategori_tb_hanum
         ];
 
@@ -45,27 +38,19 @@ class ctrl_hanum extends BaseController
     {
 
         $tb_hanum = $this->mdl_hanum->where([
-
             'label' => $label,
             'status' => $status
-
         ])->first();
 
-        $count_tb_hanum = $this->mdl_hanum
-            // ->select('label')
-            ->where([
-
-                'label' => $label,
-                'status' => $status
-            ])
-            ->countAll();
-        //dd($count_tb_hanum);
+        $count_tb_hanum = $this->mdl_hanum->select('label')->where([
+            'label' => $label,
+            'status' => $status
+        ])->countAllResults();
 
         $data = [
             'tb_hanum' => $tb_hanum,
             'count_tb_hanum' => $count_tb_hanum
         ];
-
 
         return view('vi_sh_hanum', $data);
     }

@@ -17,13 +17,7 @@ class ctrl_giwan extends BaseController
     public function index()
     {
 
-        // $kategori_tb_giwan = $this->mdl_giwan->select('label')->distinct();
         $kategori_tb_giwan = $this->mdl_giwan->select('label')->distinct()->findAll();
-        // $kategori_tb_giwan = $this->mdl_giwan->findAll();
-        // dd($kategori_tb_giwan = $this->mdl_giwan->select('label')->distinct()->findAll());
-        // dd($kategori_tb_giwan = $this->mdl_giwan->findAll());
-
-        // dd($kategori_tb_giwan);
 
         $data = [
 
@@ -51,21 +45,16 @@ class ctrl_giwan extends BaseController
 
         ])->first();
 
-        $count_tb_giwan = $this->mdl_giwan
-            // ->select('label')
-            ->where([
+        $count_tb_giwan = $this->mdl_giwan->select('label')->where([
 
-                'label' => $label,
-                'status' => $status
-            ])
-            ->countAll();
-        //dd($count_tb_giwan);
+            'label' => $label,
+            'status' => $status
+        ])->countAllResults();
 
         $data = [
             'tb_giwan' => $tb_giwan,
             'count_tb_giwan' => $count_tb_giwan
         ];
-
 
         return view('vi_sh_giwan', $data);
     }
