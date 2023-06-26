@@ -11,8 +11,9 @@
                 echo "Tidak ada data bro, pilih level yang lain ya ^_^";
             } else {
             ?>
+                <div>Kategori / Status / Tersedia </div>
+                <div> <?= $label; ?> / <?= $status; ?> / <?= $count_tb_giwan; ?></div>
 
-                <div class="mt-2">kata yang tersedia: <?= $count_tb_giwan; ?></div>
 
                 <div class="d-grid gap-2 mb-5 mt-1">
                     <button class="btn btn-success fs-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">

@@ -53,7 +53,9 @@ class ctrl_giwan extends BaseController
 
         $data = [
             'tb_giwan' => $tb_giwan,
-            'count_tb_giwan' => $count_tb_giwan
+            'count_tb_giwan' => $count_tb_giwan,
+            'label' => $label,
+            'status' => $status
         ];
 
         return view('vi_sh_giwan', $data);
